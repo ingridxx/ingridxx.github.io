@@ -70,15 +70,20 @@ header .avatar img{
 	right: 0;
 }
 
-header .container .col-md-8 h1{
+header .container .col-md-9 h1{
 	font-family: var(--courier);
-	padding: 0.5em;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
 	font-weight: lighter;
 	font-size: 10vmin;
 }
 
 header p{
 	font-family: var(--opensans);
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-right: 2em;
+	margin-left: 2em;
 }
 
 main .section-1 .container, .section-2 .container-fluid, .section-3 .container{
