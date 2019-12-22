@@ -99,18 +99,21 @@ main h2 {
 	text-shadow: 1.5px 1.5px 4px rgba(0,0,0,0.2);
 }
 
-main .section-1 .col-md-4{
+.section-1 .row .col-md-6 .abttxt{
 	position: absolute;
-	left: 45%;
-	border-radius: 8px;
-	padding: 1em;
-	margin-top: 0.5em;
+	left: -18vmin;
+	top: 5vmin;
+	right: 10vmin;
+
 }
 
 
-main .section-1 .col-md-4 p{
+
+.section-1 .row .col-md-6 .abttxt p{
 	color: rgba(0,0,0,0.8);
 	font-size: 2.5vmin;
+	position: relative;
+	font-family: var(--opensans);
 }
 
 main .section-1 img{
