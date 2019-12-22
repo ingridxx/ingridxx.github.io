@@ -106,7 +106,9 @@ main h2 {
 
 }
 
-
+main .section-1 img{
+	width: 35%;
+}
 
 .section-1 .row .col-md-6 .abttxt p{
 	color: rgba(0,0,0,0.8);
@@ -115,10 +117,14 @@ main h2 {
 	font-family: var(--opensans);
 }
 
-main .section-1 img{
-	width: 35%;
+@media (min-width: 1000px){
+	.section-1 .row .col-md-6 .abttxt{
+	position: absolute;
+	left: -20%;
+	padding-right: 10em;
+	top: 4vmin;
+	}	
 }
-
 
 main .section-2 p{
 	color: rgba(0,0,0,0.5);
