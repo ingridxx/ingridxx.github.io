@@ -101,9 +101,8 @@ main h2 {
 
 .section-1 .row .col-md-6 .abttxt{
 	position: absolute;
-	left: -18vmin;
 	top: 5vmin;
-	right: 10vmin;
+	right: 20%;
 
 }
 
